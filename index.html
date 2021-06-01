@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Assistant:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:)" href="css/Project1Phone.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Eye Centric</title>
+    <style>
+        *{
+            font-family: 'Assistant', sans-serif;            
+        }
+        body{
+            overflow-x: hidden;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        #Nav{
+            font-family: 'Assistant', sans-serif;
+            position: fixed;
+            top: 0%;
+            left: -4px;
+            /* position: sticky; */
+            width: 100vw;
+            z-index: 100000;
+            display: flex;
+            flex-direction: row; 
+             border: #1d486b;
+              border-style: solid;
+              border-color: #1d486b;
+            background-color: #1d486b;   
+        }
+        #About,#Service,#Project,#Client,#Contact,#Log{
+            position: relative;
+            padding: 4px 17px;
+            left:470px;
+            font-size: 18px;
+            top: 12px;
+            cursor: pointer;
+        }
+        #Eye,#About,#Service,#Project,#Client,#Contact{
+            position: relative;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+        #Perfect,#Centric,#Log{
+            position: relative;
+            color: cyan;
+            cursor: pointer;
+        }
+        #Perfect,#Eye,#Centric{
+            position: relative;
+            padding: 11px 11px;
+            left: 128px;
+            font-size: 25px;
+           font-weight: lighter;
+        }
+        img{
+            position: relative;
+            margin-left: -25px;
+            position: sticky;
+            height: 500px;
+            width: 103vw;
+        }
+        .Moto{
+            position: relative;
+            margin-left: -2%;
+            margin-right: -2%;
+            color: #1d486b;
+            top: -173px;
+            background-color: white;
+            opacity: 0.5;
+            text-align: center;
+            justify-content: center;
+        }
+        .Line{
+            position: relative;
+            font-size: 30px;
+            margin-bottom: -70px;
+            font-weight: 1000;
+        }
+        .Line2{
+            position: relative;
+            color: #1d486b;
+            font-size: 75px;
+            font-weight: bold;
+        }
+        .links{
+            position: relative;
+            display:inline-block;
+            background-color:  #1d486b;
+            z-index: 0.3;
+            color: rgb(250, 246, 246);
+            width: 23%;
+            height: 300px;
+            padding: 20px;
+            margin: -220px 0px 22px 73px;
+            text-align: center;
+        }
+        .btn{
+            position: relative;
+            margin-top: 20px;
+            font-size: larger;
+            border:  none;
+            background-color:rgba(60, 134, 219, 0.342);
+            padding: 3px;
+            font-weight: 1000;
+        }
+        a{
+            position: relative;
+            text-decoration: none;
+            color: white;
+        }
+      #Services{
+        position: relative;
+        top: 50px;
+        right: 30px;   
+        color: lawngreen;
+        }
+        #Projects{
+            position: relative;
+            top: 50px;
+            right: 30px;
+        }
+        .About{
+            position: relative;
+            background-color: rgba(60, 134, 219, 0.342);
+            height: 525px;
+            width: 100vw; 
+            text-align: center;
+            justify-content: center;
+            margin-top: 0px;
+            padding-top: 1px ;
+            left: -7px;
+        }
+        #info{
+            position: relative;
+            padding-left: 139px;
+              padding-right: 139px;
+              padding-top: 0px;
+             margin-top: -56px
+        }
+        #btnn{
+            position: relative;
+            margin-top: 20px;
+            font-size: larger;
+            border:  none;
+            background-color:#1d486b;
+           padding: 3px;
+            font-weight: 1000;
+        
+        }
+        .Contact{
+            position: relative;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            background-color: #1d486b;
+            left: -7px;
+        }
+        iframe{
+            position: relative;
+            padding: 100px 200px;
+        }
+        #Add{ 
+            position: relative;
+            display: flex;
+            height: 20px;
+            flex-direction: column;
+            margin-top: 89px;
+            margin-left: -180px;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 25px;
+        }
+        form{
+            position: relative;
+            padding: 5px;
+            font-size: 20px;
+            color: white;
+            margin-top: 165px;
+            margin-left: -476px;
+        }
+        footer{
+            position: relative;
+            color: white;
+            margin-top: -80px;
+            text-align: left;
+            padding-left: 195px;
+        }
+        #btnn:hover{
+            position: relative;
+            background-color: rgba(85, 67, 102, 0.575)
+        }
+        .btn:hover{
+            position: relative;
+            background-color: darkcyan;
+            color: rgb(26, 44, 209);
+            animation: forwards cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        }
+        .social img{
+            position: relative;
+            margin-right: 20px;
+            height: 15px;
+            width: 10px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        .social link{
+            text-align: right;
+        }
+      
+    </style>
+</head>
+<body>
+    <div id="Nav">
+        <a id="Perfect" href="index.Html">Perfect</a>
+        <a id="Eye" href="index.Html">Eye</a>
+        <a id="Centric" href="index.Html">Centric</a>
+        <a id="About" href="Project1About.html">About</a>
+        <a id="Service" href="Project1Services.html">Service</a>
+        <a id="Project" href="Project1Project.html">Project</a>
+        <a id="Client" href="Project1Clients.html">Client</a>
+        <a id="Contact" href="#Add">Contact</a>
+        <a id="Log" href="Project1Login.html">Sign up</a>
+           <!-- <div style="size: 24px;"> <img src="/PEC/Icon/person_white_24dp.svg" alt="">
+           </div> -->
+    </div>
+<div >
+    <img src="https://source.unsplash.com/1600x900/?blue,white,landscape";alt="Picture">
+</div>
+<section class="Moto">
+    <p class="Line">Capture The Moment</p>
+    <p class="Line2">PERFECT CLICK</p>
+</section >
+    <Section class="links" >
+        <p id="Services">
+            <h3 class="heading">Services</h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa velit hic accusamus dolor et, doloribus, necessitatibus iste error, unde tenetur porro sint dicta cum perspiciatis cumque? Cupiditate, voluptatem necessitatibus numquam nihil delectus at alias amet Lorem ipsum dolor sit amet consectetur adipisicing
+            <button class="btn"><a href="/Project1Services.html">   More Info</a></button>
+    </Section>
+</section >
+    <Section class="links" >
+        <p id="Projects">
+            <h3 class="heading">Projects</h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa velit hic accusamus dolor et, doloribus, necessitatibus iste error, unde tenetur porro sint dicta cum perspiciatis cumque? Cupiditate, voluptatem necessitatibus numquam nihil delectus at alias amet Lorem ipsum dolor sit amet consectetur adipisicing
+            <button class="btn"><a href="./Project1Project.html">   More Info</a></button>
+    </Section>
+</section >
+    <Section class="links" >
+        <p id="Clients">
+            <h3 class="heading">Clients</h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa velit hic accusamus dolor et, doloribus, necessitatibus iste error, unde tenetur porro sint dicta cum perspiciatis cumque? Cupiditate, voluptatem necessitatibus numquam nihil delectus at alias amet Lorem ipsum dolor sit amet  consectetur adipisicing
+            <button class="btn"><a href="/Project1Clients.html">   More Info</a></button>
+    </Section>
+    <div class="About">
+        <p class="Line2"> About Us</p>
+        <p id="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aliquid cupiditate numquam ut quam. Quod cupiditate, amet eligendi modi earum repudiandae vel sunt dolorum quidem sapiente voluptates consequatur quo. Porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem consequatur eius iure ullam doloremque optio repellat, voluptas assumenda aliquam?
+            <br>
+            <br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus debitis ratione eligendi quod voluptatibus nam eaque beatae asperiores harum iure itaque possimus alias, molestias quis dolorum exercitationem non labore maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo obcaecati debitis officiis, numquam praesentium autem rerum tempora fugit dolore! Exercitationem eveniet voluptate corporis in. Pariatur officiis possimus debitis repellendus.
+        </p>
+        <button id="btnn" ><a href="/Project1About.html">Read More</a></button>
+    </div>
+    <div class="Contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d886.1712441438228!2d79.36580908155564!3d28.97245534451098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a80162fab9071%3A0x2e2dc00008b525c7!2zMjjCsDU4JzIxLjgiTiA3OcKwMjEnNTYuNiJF!5e0!3m2!1sen!2sin!4v1615804495743!5m2!1sen!2sin" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+       <p id="Add"> 500 Terry Francois Street, San Francisco, CA 94158 <br> info@mysite.com  Tel: 123-456-7890</p>
+       <form action="">
+        <div class="form-group">
+            <label for="name">First Name</label> <br>
+            <input type="text" name="name" id="name" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <label for="name">Last Name</label> <br>
+            <input type="text" name="name" id="Last Name" placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <label for="name">Email</label><br>
+            <input type="email" name="name" id="Email" placeholder="enter your Email">
+        </div>
+        <div class="form-group">
+            <label for="Subject">Subject</label><br>
+            <input type="text" name="Subject" id="Subject" placeholder="Subject">
+        </div>
+        <div class="form-group">
+            <label for="name">Message</label><br>
+            <textarea name="Message"  id="Message" cols="30" rows="10"></textarea>
+        </div>
+        <div id="Submit">
+            
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+   </div>
+</section>
+    <div>
+        <footer>
+           <p id="footer"> © 2021 by -------Anuj. Proudly created with V.S Code</p>
+        </footer>
+        <!-- <div class="social"> 
+            <img src="./material/PEC/fb.png" alt="images">
+            <img src="./material/PEC/tw.png" alt="images">
+            <img src="./material/PEC/ig.png" alt="images">
+        </div> -->
+        
+    </div>
+</body>
+</html>
